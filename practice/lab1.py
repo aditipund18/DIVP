@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-# Load image
-img = cv2.imread("babbon.png")
+
+img = cv2.imread("practice/babbon.png")
 
 if img is None:
     print("Error: babbon.png not found!")
